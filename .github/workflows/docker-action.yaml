@@ -1,6 +1,6 @@
-docker-action.yaml
 
-name: 'Docker action'
+
+name: Docker action
 
 on: 
   push:
