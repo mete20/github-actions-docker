@@ -35,6 +35,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: metehanyaka/${{ github.repository }}:${{ github.ref_name }}
+        tags: tags: username/${{ github.repository }}:${{ github.ref_name }}
 
 
