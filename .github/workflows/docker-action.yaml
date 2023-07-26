@@ -35,5 +35,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ github.repository }}:${{ github.ref_name }}
+        tags: secrets.DOCKERHUB_USERNAME/${{ github.repository }}:${{ github.ref_name }}
+
 
