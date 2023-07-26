@@ -1,7 +1,6 @@
 #docker-action.yaml
 
 name: 'Docker action'
-description: 'GitHub Action to your repository that builds a Docker container'
 
 on: 
   push:
